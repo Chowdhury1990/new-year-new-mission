@@ -1,0 +1,183 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+.banner-pic img{
+    height:600px ;
+    /* border: 5px solid red; */
+    width: 1250px;
+    /* width: 100%; */
+}
+
+.banner-article{
+    position: absolute;
+    /* border: 5px solid blue; */
+    top: 10px;
+    margin-left: 700px;
+    margin-top: 150px;
+    text-align: right;
+    margin-right: 130px;
+}
+
+
+.banner-article h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-btn{
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 130px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+section{
+    /* border: 5px solid blue; */
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.failures{
+    display: flex;
+}
+
+.failures-article {
+    margin-left: 140px;
+    margin-top: 30px;
+    
+
+}
+
+.failures-header{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.tick-color{
+    color: #16D887;
+}
+
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans-header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.plans-part{
+     text-align: center; 
+}
+
+.plans-part h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.plans-part p{
+    margin-bottom: 60px;
+
+}
+
+.posative{
+    /* background-image: linear-gradient(to right, #F15B22, #f5f2f1) , */
+
+    /* background:linear-gradient(to right, #F15B22 , #f7f3f1 ) ;
+    
+    
+    url('images/watch.png'); */
+    /* height: 200px; */
+    border-radius: 10px;
+
+    background-image:
+    linear-gradient(to right, rgba(255, 104, 17, 0.52), rgb(250, 243, 240)),
+    url('images/watch.png');
+
+}
+
+.posative-text{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+     margin-bottom: 60px;
+    padding: 30px;
+    
+}
+
+.Call-btn{
+    margin-left: 70px;
+    padding: 10px;
+    background-color: white;
+    color: darkorange;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    /* margin-top: 5px; */
+     margin-bottom: 30px; 
+
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.footer-text{
+    margin-left: 110px;
+}
+
+.footer-text h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer-form{
+    margin-right: 140px;
+}
+
+.footer-form h5{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.footer-form input{
+    margin-bottom: 10px;
+    padding: 14px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+.footer-form button{
+    padding: 8px 15px;
+    color: darkorange;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 50px;
+}
